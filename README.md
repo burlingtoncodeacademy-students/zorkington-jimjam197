@@ -332,3 +332,5 @@ Each room should have:
 * Have a **status line** exist at the bottom of the screen, showing room name.
 
 * Write a **word wrapping** function and use it to wrap all printed output to a maximum 80 characters per line. See the [Wikipedia article](https://en.wikipedia.org/wiki/Characters_per_line) for more history on this subject.
+#   T h e - 3 - B e a r s  
+ 
