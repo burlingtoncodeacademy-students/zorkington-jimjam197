@@ -6,12 +6,12 @@ function ask(questionText) {
     readlineInterface.question(questionText, resolve);
   });
 }
-let defaultText = "\033[39m";
-let greenText = "\033[32m";
-let yellowText = "\033[0;33m";
-let redText = "\033[91m";
-let blueText = "\033[94m";
-let grayText = "\033[90m";
+let defaultText = "\033[39m";//defalt story text
+let greenText = "\033[32m";//result of action
+let yellowText = "\033[0;33m";//usually a sign of item interaction
+let redText = "\033[91m";//any talking/self responces
+let blueText = "\033[94m";//interaction of enviorment
+let grayText = "\033[90m";//probally the writing in the note/s
 start();
 
 async function start() {
